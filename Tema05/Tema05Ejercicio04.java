@@ -1,5 +1,5 @@
 /**
- * Numeros del 320 a 160, restando 20
+ * Bucle for: Numeros del 320 a 160, restando 20
  * 
  * @author Joseph Luca san Juan Thompson
  */
