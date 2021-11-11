@@ -23,10 +23,10 @@ public class Tema04Ejercicio09 {
           System.out.println("Esta ecuación no tiene solución");
         }
       } else {
-        System.out.prinln("x = " + ((-b + √b2 - 4*a*c)/(2*a)));
+        System.out.prinln("x = " + ((-b + √b2 - 4*(a*c))/(2*a)));
       }
     } else {
-    System.out.println("x = " + ((-b + √b2 - 4*a*c)/(2*a)));
+    System.out.println("x = " + ((-b + √b2 - 4*(a*c))/(2*a)));
     }
 	}
 }

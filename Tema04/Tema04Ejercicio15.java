@@ -21,35 +21,36 @@ public class Tema04Ejercicio15 {
     
     switch((int)direccion){
       case 1:
-      System.out.println("\n " + z + " \n " + z + z + z + " ");
-      System.out.println(" " + z + z + z + z + z + z + z + " ");
-      System.out.println(" " + z + z + z + z + z + z);
-      System.out.print(" " + z + z + z + z + z);
-      System.out.print(" " + z + z + z + "\n");
+      System.out.println("\n     " + z + " \n    " + z + z + z + " ");
+      System.out.println(" " + " " + " " + z + z + z + z + z + " ");
+      System.out.println(" " + " " + z + z + z + z + z + z + z);
+      System.out.println(" " + z + z + z + z + z + z + z + z + z);
+      System.out.println(" "+ "\n");
       break;
       
       case 2:
       System.out.println("\n" + z); 
       System.out.println(z + " " + z);
       System.out.println(z + " " + z + " " + z);
-      System.out.print(z + " " + z);
-      System.out.print(z);
+      System.out.println(z + " " + z);
+      System.out.println(z);
       break;
       
       case 3:
-      System.out.println("\n" + z + z + z + z + z + z);
-      System.out.println(" " + z + z + z + "\n");
-      System.out.println(" "+ z + z + z + z + z + z + z + " ");
-      System.out.print(" " + z + z + z + z + z + " ");
-      System.out.print(" " + z + z + z + "  " + "\n " + z + "\n");
+      System.out.println("\n" + z + z + z + z + z + z + z + z + z + z + z);
+      System.out.println(" " + z + z + z + z + z + z + z + z + z);
+      System.out.println(" " + " " + z + z + z + z + z + z + z + " ");
+      System.out.println(" " + " " + " " + z + z + z + z + z + " ");
+      System.out.println(" " + " " + " " + " " + z + z + z + "  " + " ");
+      System.out.println(" " + " " + " " + " " + " " + z + "\n");
       break;
       
       case 4:
-      System.out.println("\n    " + z);
-      System.out.println(" " + z + " " + z);
-      System.out.println(z + " " + z + " " + z);
-      System.out.println(" " + z + " " + z);
-      System.out.println(" " + z);
+      System.out.println("\n  " + z);
+      System.out.println(" " + z + " ");
+      System.out.println(z + " " + z + " ");
+      System.out.println(" " + z + " ");
+      System.out.println("  " + z);
       break;
       
       default:
