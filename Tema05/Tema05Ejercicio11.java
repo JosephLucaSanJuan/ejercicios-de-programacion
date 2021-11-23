@@ -12,7 +12,7 @@ public class Tema05Ejercicio11 {
     int n = Integer.parseInt(System.console().readLine());
     
     for (int i=n; i<n+5; i++) {
-      System.out.println(i + " "  + i*i + " " + i*i*i);
+      System.out.println(i + " " + i*i + " " + i*i*i);
     }
 	}
 }
