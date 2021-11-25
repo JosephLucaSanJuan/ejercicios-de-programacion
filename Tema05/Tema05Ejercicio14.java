@@ -14,10 +14,12 @@ public class Tema05Ejercicio14 {
     int exp = Integer.parseInt(System.console().readLine());
     
     int potencia = 1;
-    int i = 0;
+    int i = 1;
     
-    while (i < exp) {
-      if
+    while (i <= exp) {
+      i++;
+      potencia = potencia*b;
     }
+    System.out.println(potencia);
 	}
 }

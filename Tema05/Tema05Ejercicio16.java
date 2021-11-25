@@ -13,12 +13,12 @@ public class Tema05Ejercicio16 {
     int n = Integer.parseInt(System.console().readLine());
     
     do {
-      if (n % 1 = 0; ) {
-        System.out.println("");
+      if (n / 1 = n) {
+        System.out.println("Es primo");
       } else {
-        System.out.println("");
+        System.out.println("No es primo");
       }
-    } while (n);
+    } while (n % 1 = 0);
 	}
 }
 
