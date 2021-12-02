@@ -1,6 +1,6 @@
 
 /**
- * Identifica positivos de negativos
+ * Bucle: Identifica positivos de negativos
  * 
  * @author Jospeh Luca San Juan Thompson
  */

@@ -9,16 +9,18 @@ public class Tema05Ejercicio16 {
 	
 	public static void main (String[] args) {
 		System.out.println("Dí si un número es primo o no");
-    System.out.print("Introduce un número ");
+    System.out.print("Introduce un número: ");
     int n = Integer.parseInt(System.console().readLine());
     
-    do {
-      if (n / 1 = n) {
+    int j=2;
+    
+    while (j > 1) {
+      if (n % j == 1) {
         System.out.println("Es primo");
-      } else {
+      } else if (n % j == 0) {
         System.out.println("No es primo");
       }
-    } while (n % 1 = 0);
+    }
 	}
 }
 
