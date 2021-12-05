@@ -12,15 +12,19 @@ public class Tema05Ejercicio17 {
     System.out.print("Introduce un número: ");
     int n = Integer.parseInt(System.console().readLine());
     
-    int i = 0;
-    int siguiente = n+1;
+    int resultado = 0;
+    int anterior = n+1;
+    int siguiente = n;
     int sumaNum = 0;
     
-    while (sumaNum <= 100) {
-      i= n + siguiente;
+    while (resultado <= n+100) {
+      resultado = siguiente + 1;
+      System.out.print(resultado + " ");
+      siguiente = resultado;
       sumaNum++;
-      System.out.println(i);
     }
+    //int resFinal=resultado++;
+    //System.out.println("\n" + resFinal);
 	}
 }
 

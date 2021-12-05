@@ -17,8 +17,17 @@ public class Tema05Ejercicio16 {
     while (j > 1) {
       if (n % j == 1) {
         System.out.println("Es primo");
-      } else if (n % j == 0) {
+      } else if (n % 3 == 0) {
         System.out.println("No es primo");
+      } else if (n % 3 == 0) {
+        System.out.println("No es primo");
+      } else if (n % 5 == 0) {
+        System.out.println("No es primo");
+      } else if (n % 7 == 0) {
+        System.out.println("No es primo");
+      } else if (n % 11 == 0) {
+        System.out.println("No es primo");
+      } else {
       }
     }
 	}
