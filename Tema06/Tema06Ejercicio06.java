@@ -11,7 +11,7 @@ public class Tema06Ejercicio06 {
 		System.out.println("Adivina un número al azar entre 0 y 100");
     System.out.println("Tienes 5 oportunidades");
     
-    int numRand = (int)(Math.random()*100);
+    int numRand = (int)(Math.random()*101);
     int numPreg=1;
     
     while (numPreg <= 5) {

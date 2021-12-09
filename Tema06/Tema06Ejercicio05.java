@@ -15,7 +15,7 @@ public class Tema06Ejercicio05 {
     // int numMed;
     
     for (int j=1; j <= 50; j++) {
-      System.out.print(" " + (int)(Math.random()*100+100) + " ");
+      System.out.print(" " + (int)(Math.random()*101+100) + " ");
     }
 	}
 }
