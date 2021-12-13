@@ -12,23 +12,18 @@ public class Tema05Ejercicio16 {
     System.out.print("Introduce un número: ");
     int n = Integer.parseInt(System.console().readLine());
     
-    int j=2;
+    boolean Primo=true;
     
-    while (j > 1) {
-      if (n % j == 1) {
-        System.out.println("Es primo");
-      } else if (n % 3 == 0) {
-        System.out.println("No es primo");
-      } else if (n % 3 == 0) {
-        System.out.println("No es primo");
-      } else if (n % 5 == 0) {
-        System.out.println("No es primo");
-      } else if (n % 7 == 0) {
-        System.out.println("No es primo");
-      } else if (n % 11 == 0) {
-        System.out.println("No es primo");
-      } else {
+    for (int j=2; j<n; j++) {
+      if ((n%j)==0) {
+        Primo=false;
       }
+    }
+    
+    if (Primo) {
+      System.out.println("Es primo");
+    } else {
+      System.out.println("No es primo");
     }
 	}
 }

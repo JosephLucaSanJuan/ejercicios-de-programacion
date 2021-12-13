@@ -8,7 +8,7 @@
 public class Tema05Ejercicio18 {
 	
 	public static void main (String[] args) {
-		System.out.println("Introduce dos números y obtiene todos los numeros enteros comprendidos entre ellos");
+		System.out.println("Introduce dos números y obtiene todos los numeros enteros (de 7 en 7) comprendidos entre ellos");
     System.out.print("Introudce un número: ");
     int n1 = Integer.parseInt(System.console().readLine());
     System.out.print("Introudce otro número: ");

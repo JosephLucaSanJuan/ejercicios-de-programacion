@@ -12,7 +12,7 @@ public class ArbolDeNavidad {
 		System.out.print("Introduce la altura: ");
     int alt = Integer.parseInt(System.console().readLine());
     
-    for (int f=1; f<alt-2; f++) {
+    for (int f=1; f<alt; f++) {
       System.out.print(" ");
     }
     System.out.println("⭐");
@@ -27,7 +27,7 @@ public class ArbolDeNavidad {
       System.out.println("\033[32m/");
       
       for (int j=0; j<espCentral; j++) {
-        switch ((int) (Math.random()*8)) {
+        switch ((int)(Math.random()*8)) {
           case 0:
           System.out.print("\033[36m*");
           break;
@@ -49,17 +49,22 @@ public class ArbolDeNavidad {
       espCentral += 2;
     }
     
+    for (int j = 0; j < espacio; j++) {
+      System.out.print(" ");
+    }
+    
     System.out.print("\033[32m/");
     for (int i = 0; i < espCentral; i++) {
       System.out.print("-");
     }
     System.out.println("\\");
     
-    for (int f=1; f<alt-2; f++) {
+    for (int f=1; f<alt; f++) {
       System.out.print(" ");
     }
     System.out.println("\033[33m#");
-    for (int f=1; f<alt-2; f++) {
+    
+    for (int f=1; f<alt; f++) {
       System.out.print(" ");
     }
     System.out.println("\033[33m#");
